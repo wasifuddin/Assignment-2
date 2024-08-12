@@ -95,9 +95,7 @@ body{
 
 }
 
-.button-container{
 
-}
 
 .btn{
     padding: 16px 40px 16px 40px;
@@ -109,5 +107,80 @@ body{
     font-size: 1.1rem;
 }
 
+.habits-container{
+    --background-color: white;
+    width: 100%;
+}
+
+#habit-p1{
+    font-weight: 900;
+    font-size: 3rem;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    margin-bottom: 20px;
+    
 
 
+}
+
+#habit-p2{
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border: 2px solid white;
+    padding-bottom: 30px;
+    margin-top: 0px;
+}
+
+#habit-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-habit{
+    border-radius: 50%;
+
+}
+
+#img-p1{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: 2px solid white;
+
+}
+
+#img-p2{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 1rem;
+
+    text-align: center;
+    border: 2px solid white;
+}
+
+.run-mile{
+    width: 100%;
+    border-radius: 18px;
+
+background: rgb(34, 34, 34);
+}
+
+.run-content{
+    width: 50%;
+}
+
+.run-img{
+    width: 50%;
+    
+}
+
+#img-id-run{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+}
