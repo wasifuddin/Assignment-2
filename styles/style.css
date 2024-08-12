@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root{
+    --font-family: "Inter";
+    --primary-color: #E6533C;
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+h3{
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    font-size: 2.1rem;
+    font-weight: 800;
+}
+
+.display-flex{
+    display: flex;
+}
+
+ul{
+    border: 2px solid orange;
+}
+.navlink{
+    text-decoration: none;
+    
+}
+
+.nav-item{
+    list-style: none;
+    margin: 10px 10px;
+    padding: 5px 15px;
+    font-size: 1.1rem;
+    font-family: var(--font-family);
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border: 2px solid #E6533C;
+}
+
+.nav-container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.intro-container{
+    justify-content: center;
+    width: 100%;
+    
+
+}
+
+.intro-text{
+    width: 50%;
+    border: 2px solid #E6533C;
+
+}
+
+.img-container{
+    width: 50%;
+    justify-self: right;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+img{
+    border: 2px solid #E6533C;
+}
+
+.intro-head{
+    font-size: 4.9rem;
+    color: white;
+    font-weight: 900;
+}
+
+.intro-head-inner{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+    --background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background: black;
+    width: 100%;
+
+}
+
+.button-container{
+
+}
+
+.btn{
+    padding: 16px 40px 16px 40px;
+    border-radius: 39px;
+    color: white;
+    background: var(--primary-color);
+    border: none;
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+
+
+
