@@ -212,3 +212,28 @@ background: rgb(34, 34, 34);
     padding-bottom: 30px;
     margin-top: 0px;
 }
+
+
+
+
+
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: calc(100% - 10px);
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    gap: 20px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.meet-img{
+    width: 100%;
+    border-radius: 18px;
+    width: 326.67px;
+    height: 272px;
+    margin-left: 15px;
+
+}
