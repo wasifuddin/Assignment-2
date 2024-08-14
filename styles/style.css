@@ -75,6 +75,7 @@ ul {
   ----display: none;
   max-width: 1140px;
   margin: 0 auto;
+  background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 
 .nav-item:hover {
@@ -84,7 +85,6 @@ ul {
 .intro-container {
   justify-content: center;
   width: 100%;
-  border: 2px solid orange;
   border: none;
   max-width: 1140px;
   margin: 0 auto;
@@ -102,6 +102,12 @@ ul {
   flex-direction: row-reverse;
 }
 
+
+.card-holder{
+    width: 90%;
+}
+
+
 .light-card-1 {
   border-radius: 12px;
   padding: 10px 10px;
@@ -110,9 +116,11 @@ ul {
   display: flex;
   flex-direction: column;
   height: 80px;
-  width: 150px;
-  margin-top: -500px;
-  margin-left: 1200px;
+  width: 180px;
+  margin-top: -35%;
+  margin-left: 88%;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -126,8 +134,10 @@ ul {
   display: flex;
   height: 75px;
   width: 200px;
-  margin-top: -200px;
-  margin-left: 900px;
+  margin-top: -15%;
+  margin-left: 65%;
+  align-items: center;
+  justify-content: center;
 }
 
 .cards-1 {
@@ -434,6 +444,8 @@ body {
   margin-bottom: 0px;
   text-align: left;
 }
+
+
 
 .form-content {
   display: grid;
@@ -872,8 +884,7 @@ body {
 }
 .light-card-1{
     margin-left: 330px;
-    margin-top: -58 
-    0px;
+    margin-top: -580px;
 }
 
 .img-container{
